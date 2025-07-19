@@ -2,19 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Support This Project – Burma Birds</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support – Burma Birds</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>body { font-family: 'Inter', sans-serif; }</style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <div class="min-h-screen flex flex-col items-center justify-center px-6 py-12">
-    <h1 class="text-4xl font-bold text-emerald-700 mb-6">Support This Project</h1>
-    <p class="text-lg text-gray-700 max-w-2xl text-center mb-8">
-      This project is developed with love to raise awareness about the native birds of Burma. If you find it valuable, consider supporting it through the methods below.
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Shared Header -->
+  <div id="header"></div>
+
+  <!-- Support Content -->
+  <div class="max-w-4xl mx-auto py-12 px-4">
+    <h1 class="text-4xl font-bold text-emerald-700 mb-6 text-center">Support This Project</h1>
+    <p class="text-lg text-gray-700 text-center max-w-2xl mx-auto mb-6">
+      Support this open data biodiversity project for Burma — your help empowers citizen science, education, and conservation efforts.
     </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-xl">
+    <p class="text-md text-gray-600 text-center mb-8">
+      မြန်မာနိုင်ငံအတွက် ဖွင့်လှစ်ထားသော ဇီဝမျိုးစုံဒေတာပရောဂျက်ကို အားဖြည့်ပေးပါ — သင်၏အထောက်အပံ့သည် ပြည်သူသိပ္ပံ၊ ပညာရေးနှင့် သဘာဝထိန်းသိမ်းရေးလုပ်ငန်းများကို အင်အားဖြည့်ပေးနိုင်သည်။
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <a href="https://www.buymeacoffee.com/hanhtoophyo90" target="_blank" class="block bg-yellow-100 border border-yellow-400 rounded-lg p-4 hover:bg-yellow-200 transition">
         <h2 class="text-xl font-semibold text-yellow-700 mb-2">☕ Buy Me a Coffee</h2>
         <p class="text-gray-600">Quick and easy way to show support.</p>
@@ -32,7 +40,16 @@
         <p class="text-gray-600">Email me at <a href="mailto:hanhtoophyo90@gmail.com" class="text-blue-700 underline">hanhtoophyo90@gmail.com</a></p>
       </div>
     </div>
-    <p class="mt-12 text-sm text-gray-500 text-center">Thank you for your interest in protecting Burma’s biodiversity </p>
+
+    <p class="mt-12 text-sm text-gray-500 text-center">Thank you for your interest in protecting Burma’s biodiversity.</p>
   </div>
+
+  <!-- Shared Footer -->
+  <div id="footer"></div>
+
+  <script>
+    fetch("partials/header.html").then(res => res.text()).then(html => document.getElementById("header").innerHTML = html);
+    fetch("partials/footer.html").then(res => res.text()).then(html => document.getElementById("footer").innerHTML = html);
+  </script>
 </body>
 </html>
