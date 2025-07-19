@@ -1,6 +1,4 @@
-// **FIX**: The bird data is now embedded directly in the script.
-        // This avoids the 'fetch' error caused by trying to load a local file.
-        const allBirds = [
+const birds = [
     {
                 id: 1,
                 name: "Burmese Bushlark",
@@ -90,6 +88,28 @@
                 description: "A large hornbill...",
                 habitat: "Evergreen forests.",
                 conservation_status: "Vulnerable"
+            },
+            {
+                id: 10,
+                name: "Black-naped Monarch",
+                scientific_name: "Hypothymis azurea",
+                image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Black-naped_Monarch_%28Hypothymis_azurea%29_Photograph_by_Shantanu_Kuveskar.jpg",
+                photo_credit: "Shantanu Kuveskar",
+                photo_credit_url: "https://commons.wikimedia.org/wiki/File:Black-naped_Monarch_(Hypothymis_azurea)_Photograph_by_Shantanu_Kuveskar.jpg",
+                description: "The black-naped monarch is a small, insectivorous bird found in tropical southern Asia.",
+                habitat: "...",
+                conservation_status: "LC"
+            },
+            {
+                id: 11,
+                name: "Oriental Darter",
+                scientific_name: "Anhinga melanogaster",
+                image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Darter_%28Anhinga_melanogaster%29_Photograph_by_Shantanu_Kuveskar.jpg",
+                photo_credit: "Shantanu Kuveskar",
+                photo_credit_url: "https://commons.wikimedia.org/wiki/File:Darter_(Anhinga_melanogaster)_Photograph_by_Shantanu_Kuveskar.jpg",
+                description: "The oriental darter is a water bird with a long neck, often called snakebird.",
+                habitat: "...",
+                conservation_status: "NT"
             }
 
 ];
