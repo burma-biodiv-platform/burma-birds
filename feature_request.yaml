@@ -1,0 +1,46 @@
+name: 🌱 Feature Request | လုပ်ဆောင်ချက်တောင်းဆိုမှု
+description: Suggest a new idea or feature for the project | စီမံကိန်းအတွက် အကြံဉာဏ်အသစ် တောင်းဆိုရန်
+title: "[Feature] "
+labels: [enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement or new feature!  
+        ပိုမိုကောင်းမွန်အောင်အကြံပြုပေးသည့်အတွက် ကျေးဇူးတင်ပါတယ်။
+
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary | အကျဉ်းချုပ်
+      description: What is your feature idea? | မင်းရဲ့အကြံဉာဏ်ကဘာလဲ။
+      placeholder: "e.g., Add filter by habitat or search by common name"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement | ပြဿနာရှင်းပြချက်
+      description: What problem does it solve? | ဤလုပ်ဆောင်ချက်က ဘယ်ပြဿနာကို ဖြေရှင်းမလဲ။
+      placeholder: "Currently, users cannot..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution | အကြံပြုဖြေရှင်းနည်း
+      description: Describe your proposed solution | မင်းရဲ့အကြံပြုနည်းလမ်းကို ရှင်းပြပါ။
+      placeholder: "We could implement..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context | ထပ်ဆောင်းအချက်အလက်များ
+      description: Add any other context or screenshots here. | ထပ်ဆောင်းဖော်ပြချက် သို့မဟုတ် ပုံများ ထည့်ပါ။
+      placeholder: "Related issue, user story, mockup..."
