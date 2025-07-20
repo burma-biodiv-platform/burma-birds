@@ -1,46 +1,18 @@
-# CONTRIBUTING
+# 🛠️ Contributing to Burma Biodiversity Platform
 
-We welcome contributions to the **Burma Biodiversity Platform**!
+We welcome contributions from everyone, especially amateur naturalists, students, and developers. Whether it's code, data, photos, or ideas, your input matters!
 
-## Ways to Contribute
+## How You Can Help
 
-- 🐛 Report issues or suggest improvements
-- ✍️ Submit species data or corrections
-- 🌐 Help with Burmese and English translations
-- 💻 Contribute code to the website
+- Report issues or bugs
+- Improve existing content or translations
+- Suggest new features or data categories
+- Contribute species images and metadata
 
-## Code Guidelines
+## Guidelines
 
-- Follow clear, readable code practices.
-- For frontend: use standard HTML/CSS/JavaScript or React.
-- Submit pull requests with clear messages.
+- Be respectful and inclusive
+- Follow the code of conduct
+- Use English or Burmese when possible
 
-## How to Contribute
-
-1. Fork the repo.
-2. Create a new branch: `feature/your-feature-name`.
-3. Make your changes.
-4. Submit a pull request and describe your contribution.
-
-Thank you for supporting biodiversity in Burma!
-
----
-
-# ပါဝင်ကူညီခြင်း
-
-**မြန်မာဇီဝမျိုးစုံမျိုးစေ့အချက်အလက်ပလက်ဖောင်း** ကို ကူညီလိုသူအားလုံးကို ကြိုဆိုပါတယ်။
-
-## ကူညီနိုင်သောနည်းလမ်းများ
-
-- 🐛 ပြဿနာများ တင်ပြခြင်း သို့မဟုတ် တိုးတက်အောင်အကြံပေးခြင်း
-- ✍️ အသစ်သောမျိုးစိတ်အချက်အလက်များ တင်သွင်းခြင်း
-- 🌐 မြန်မာ-အင်္ဂလိပ် ဘာသာပြန်ခြင်း
-- 💻 ဝက်ဘ်ဆိုက်အတွက် ကုဒ်ရေးခြင်း
-
-## ကုဒ်ရေးသည့်အခါ
-
-- ရှင်းလင်းပြတ်သားသော နည်းနည်းလမ်းလမ်းနှင့်ရေးပါ။
-- frontend အတွက် HTML/CSS/JS သို့မဟုတ် React ကို သုံးပါ။
-- pull request တင်သောအခါ ပြောင်းလဲမှုကို ရှင်းလင်းစွာ ဖော်ပြပါ။
-
-အပေါင်းတို့၏ ပံ့ပိုးမှုအတွက် ကျေးဇူးတင်ပါတယ်။
+Thank you for supporting Burma’s biodiversity 
